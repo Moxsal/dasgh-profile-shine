@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Phone, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import dasGhLogo from '@/assets/das-gh-logo.png';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,18 +35,12 @@ const Header = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg gold-gradient flex items-center justify-center">
-              <span className="text-navy-800 font-serif font-bold text-xl">D</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-gold-400 font-serif font-semibold text-xl tracking-tight">
-                Das GH Ltd
-              </span>
-              <span className="text-gold-100/70 text-xs tracking-wider uppercase hidden sm:block">
-                Building Excellence
-              </span>
-            </div>
+          <a href="#home" className="flex items-center gap-2">
+            <img 
+              src={dasGhLogo} 
+              alt="Das GH Ltd - Building Construction & Real Estate" 
+              className="h-12 sm:h-14 w-auto object-contain"
+            />
           </a>
 
           {/* Desktop Navigation */}
