@@ -55,7 +55,7 @@ const About = () => {
             
             {/* Experience Badge */}
             <div className="absolute bottom-8 left-8 bg-navy-800 text-gold-50 p-6 rounded-xl shadow-lg z-20">
-              <div className="text-4xl font-serif font-bold text-gold-400">10+</div>
+              <div className="text-4xl font-serif font-bold text-gold-400">7+</div>
               <div className="text-sm text-gold-100/70">Years of Excellence</div>
             </div>
           </motion.div>
@@ -75,9 +75,10 @@ const About = () => {
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
               Das GH Ltd is a leading construction and real estate company in Ghana, 
-              dedicated to transforming visions into reality. With over a decade of experience, 
-              we've built a reputation for delivering exceptional quality, innovative designs, 
-              and reliable service across residential and commercial projects.
+              dedicated to transforming visions into reality. With 7+ years of experience, 
+              over 2,000 successful projects, and 900+ satisfied clients, we've built a 
+              reputation for delivering exceptional quality, innovative designs, and reliable 
+              service across residential and commercial projects.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
               From initial concept and architectural planning to construction, interior 
