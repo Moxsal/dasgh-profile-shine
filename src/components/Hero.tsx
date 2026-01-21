@@ -5,9 +5,9 @@ import heroImage from '@/assets/hero-construction.jpg';
 
 const Hero = () => {
   const stats = [
-    { icon: Building2, value: '150+', label: 'Projects Completed' },
-    { icon: Users, value: '200+', label: 'Happy Clients' },
-    { icon: Award, value: '10+', label: 'Years Experience' },
+    { icon: Building2, value: '2,000+', label: 'Projects Completed' },
+    { icon: Users, value: '900+', label: 'Happy Clients' },
+    { icon: Award, value: '7+', label: 'Years Experience' },
   ];
 
   return (
