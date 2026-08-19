@@ -31,11 +31,12 @@ const Auth = () => {
       return;
     }
     setBusy(true);
+    const credentials = { email: parsed.data.email, password: parsed.data.password };
     const { error } =
       mode === 'signin'
-        ? await supabase.auth.signInWithPassword(parsed.data)
+        ? await supabase.auth.signInWithPassword(credentials)
         : await supabase.auth.signUp({
-            ...parsed.data,
+            ...credentials,
             options: { emailRedirectTo: `${window.location.origin}/admin` },
           });
     setBusy(false);
